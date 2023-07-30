@@ -7,9 +7,7 @@ const Field = () => {
 
     useEffect(() => {
         const canvas = canvasRef.current;
-        const ctx = canvas?.getContext('2d');
-
-        // draw chart here using ctx
+        const ctx = canvas?.getContext('2d')
 
         const handlePan = (event) => {
             if (event.buttons === 1) {
